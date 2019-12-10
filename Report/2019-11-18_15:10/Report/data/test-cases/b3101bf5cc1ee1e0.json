@@ -1,0 +1,98 @@
+{
+  "uid" : "b3101bf5cc1ee1e0",
+  "name" : "test_delete_device[1-1]",
+  "fullName" : "Case.test_room.TestRoom#test_delete_device",
+  "historyId" : "f756c3fdc70edb3582d3f9042565f06e",
+  "time" : {
+    "start" : 1574061347292,
+    "stop" : 1574061349748,
+    "duration" : 2456
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'int' object is not iterable",
+  "statusTrace" : "self = <Case.test_room.TestRoom object at 0x10c25c048>, room_num = 1\ndevice_list = 1\n\n    @pytest.mark.parametrize(\"room_num,device_list\", [(0, (3, 1)),\n                                                      (1, 1),\n                                                      (1, (2, 1))])\n    def test_delete_device(self, room_num, device_list):\n        temp = self.driver.get_obj_num(device_list)\n        name = self.room.choose_room(room_num).get_room_name()\n        length = int(self.room.get_device_length())\n>       self.room.delete_device(device_list).back_list()\n\nCase/test_room.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <Page.room_page.RoomPage object at 0x10c1589b0>, device_num = 1\n\n    def delete_device(self, device_num : list=[0]):\n        \"\"\"\n        删除房间里的设备,默认删除房间的第一个设备\n        :param device_num: 设备序列(必须是列表列表),默认删除第一个,删除多个时建议大的数字往前放\n        :return:\n        \"\"\"\n        device = self.find_elements_until_visibility(self._device_list)\n>       for i in device_num:\nE       TypeError: 'int' object is not iterable\n\nPage/room_page.py:130: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574061225009,
+      "stop" : 1574061234411,
+      "duration" : 9402
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574061425974,
+      "stop" : 1574061426348,
+      "duration" : 374
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "4015-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device_list",
+    "value" : "1"
+  }, {
+    "name" : "room_num",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b3101bf5cc1ee1e0.json",
+  "parameterValues" : [ "1", "1" ]
+}

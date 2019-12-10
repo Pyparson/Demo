@@ -1,0 +1,156 @@
+{
+  "uid" : "cb47dd2679018507",
+  "name" : "test_create_room[Ayla45-Ayla45]",
+  "fullName" : "Case.test_room.TestRoom#test_create_room",
+  "historyId" : "5c6fb387d9ed686ff890ef25de08cc16",
+  "time" : {
+    "start" : 1574049455119,
+    "stop" : 1574049467312,
+    "duration" : 12193
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574049441231,
+      "stop" : 1574049455118,
+      "duration" : 13887
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试截图",
+      "time" : {
+        "start" : 1574049456146,
+        "stop" : 1574049456570,
+        "duration" : 424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abc19d56356b1a0",
+        "name" : "创建前截图",
+        "source" : "abc19d56356b1a0.png",
+        "type" : "image/png",
+        "size" : 28835
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "测试截图",
+      "time" : {
+        "start" : 1574049466858,
+        "stop" : 1574049467228,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68fd81dd036d60f3",
+        "name" : "创建后截图",
+        "source" : "68fd81dd036d60f3.png",
+        "type" : "image/png",
+        "size" : 31351
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "148bf87a404d3ddb",
+      "name" : "log",
+      "source" : "148bf87a404d3ddb.txt",
+      "type" : "text/plain",
+      "size" : 48
+    }, {
+      "uid" : "e50c13cca00c4e97",
+      "name" : "stderr",
+      "source" : "e50c13cca00c4e97.txt",
+      "type" : "text/plain",
+      "size" : 35
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574049633404,
+      "stop" : 1574049633725,
+      "duration" : 321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "1818-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_name",
+    "value" : "'Ayla45'"
+  }, {
+    "name" : "name",
+    "value" : "'Ayla45'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb47dd2679018507.json",
+  "parameterValues" : [ "'Ayla45'", "'Ayla45'" ]
+}

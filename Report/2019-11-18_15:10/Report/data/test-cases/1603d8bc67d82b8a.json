@@ -1,0 +1,98 @@
+{
+  "uid" : "1603d8bc67d82b8a",
+  "name" : "test_modify_title[Ayla 45-Ayla 45]",
+  "fullName" : "Case.test_home.TestHome#test_modify_title",
+  "historyId" : "7377d2a3f6957116b4ff84b83487f86c",
+  "time" : {
+    "start" : 1574061045487,
+    "stop" : 1574061058984,
+    "duration" : 13497
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 测试不通过\nassert 'Ayla 45' == 'Ayla45Ayla45Ayla4512'\n  - Ayla 45\n  + Ayla45Ayla45Ayla4512",
+  "statusTrace" : "self = <Case.test_home.TestHome object at 0x10c1230b8>, name = 'Ayla 45'\nexpect_name = 'Ayla 45'\n\n    @pytest.mark.parametrize(\"name,expect_name\", [(\"Ayla45\", \"Ayla45\"),\n                                                  (\"Ayla 45\", \"Ayla 45\"),\n                                                  (\"Ayla_45\", \"Ayla_45\"),\n                                                  (\"Ayla45Ayla45Ayla45123\", \"Ayla45Ayla45Ayla4512\"),\n                                                   (\"艾拉-45\", \"艾拉-45\")])\n    def test_modify_title(self, name, expect_name):\n        # self.name = self.home.modify_title(name)\n        self.home.modify_title(name)\n        actual_name = self.home.get_home_name()\n>       assert expect_name == actual_name, \"测试不通过\"\nE       AssertionError: 测试不通过\nE       assert 'Ayla 45' == 'Ayla45Ayla45Ayla4512'\nE         - Ayla 45\nE         + Ayla45Ayla45Ayla4512\n\nCase/test_home.py:26: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574061017137,
+      "stop" : 1574061029869,
+      "duration" : 12732
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574061223869,
+      "stop" : 1574061224999,
+      "duration" : 1130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "4015-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_name",
+    "value" : "'Ayla 45'"
+  }, {
+    "name" : "name",
+    "value" : "'Ayla 45'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1603d8bc67d82b8a.json",
+  "parameterValues" : [ "'Ayla 45'", "'Ayla 45'" ]
+}

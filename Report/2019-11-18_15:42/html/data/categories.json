@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "IndexError: list index out of range",
+      "children" : [ {
+        "name" : "test_delete_device[0-device_list0]",
+        "uid" : "6548166e97ac5af8",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574063085357,
+          "stop" : 1574063087403,
+          "duration" : 2046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "(3, 1)", "0" ]
+      } ],
+      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
+    }, {
+      "name" : "TypeError: 'int' object is not iterable",
+      "children" : [ {
+        "name" : "test_delete_device[1-1]",
+        "uid" : "3f6522a4396863f",
+        "parentUid" : "f5be75fbc8d053c7710b6a9c27db14f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574063111571,
+          "stop" : 1574063113625,
+          "duration" : 2054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1" ]
+      } ],
+      "uid" : "f5be75fbc8d053c7710b6a9c27db14f7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

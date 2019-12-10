@@ -1,0 +1,1 @@
+INFO     Common.base_page:test_room.py:41 房间名称:Ayla45;预期设备个数:1;实际设备个数:1 个设备

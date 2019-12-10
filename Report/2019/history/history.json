@@ -1,0 +1,41 @@
+{
+  "9653cdb674e4e27c99aecf65783c1c1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3e4ffcc868dae50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574046475776,
+        "stop" : 1574046475776,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f73d16c7b0478ed98507807e766fa821" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d42bfb61d29496",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: failed\nassert 1 == 7",
+      "time" : {
+        "start" : 1574046475778,
+        "stop" : 1574046475778,
+        "duration" : 0
+      }
+    } ]
+  }
+}

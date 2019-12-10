@@ -1,0 +1,62 @@
+{
+  "uid" : "22f4adbc0ceff7c8",
+  "name" : "test_div",
+  "fullName" : "case1.test_work1.TestNum#test_div",
+  "historyId" : "d27df30e5eef54b1a47f8e5878bedfec",
+  "time" : {
+    "start" : 1574068503154,
+    "stop" : 1574068503154,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: failed\nassert 1 == 7",
+  "statusTrace" : "self = <case1.test_work1.TestNum object at 0x10baffda0>\n\n    def test_div(self):\n        a = 3\n        b = 4\n        sum = b - a\n>       assert sum == 7, \"failed\"\nE       AssertionError: failed\nE       assert 1 == 7\n\ncase1/test_work1.py:15: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case1"
+  }, {
+    "name" : "suite",
+    "value" : "test_work1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNum"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "5478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case1.test_work1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "22f4adbc0ceff7c8.json",
+  "parameterValues" : [ ]
+}

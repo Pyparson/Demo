@@ -1,0 +1,114 @@
+{
+  "uid" : "1396fee701b6be49",
+  "name" : "test_add_device[1-device_list2]",
+  "fullName" : "Case.test_room.TestRoom#test_add_device",
+  "historyId" : "d291d79230ec00f28248cb1bb21969fa",
+  "time" : {
+    "start" : 1574061314182,
+    "stop" : 1574061321570,
+    "duration" : 7388
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574061225009,
+      "stop" : 1574061234411,
+      "duration" : 9402
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4242b7d323b05823",
+      "name" : "log",
+      "source" : "4242b7d323b05823.txt",
+      "type" : "text/plain",
+      "size" : 113
+    }, {
+      "uid" : "f6f77b12f3b90cd0",
+      "name" : "stderr",
+      "source" : "f6f77b12f3b90cd0.txt",
+      "type" : "text/plain",
+      "size" : 100
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574061425974,
+      "stop" : 1574061426348,
+      "duration" : 374
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "4015-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device_list",
+    "value" : "(2, 1)"
+  }, {
+    "name" : "room_num",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1396fee701b6be49.json",
+  "parameterValues" : [ "(2, 1)", "1" ]
+}

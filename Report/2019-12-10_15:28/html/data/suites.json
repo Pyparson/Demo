@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Case",
+    "children" : [ {
+      "name" : "test_work",
+      "children" : [ {
+        "name" : "TestNum",
+        "children" : [ {
+          "name" : "test_add",
+          "uid" : "118391087c1f884f",
+          "parentUid" : "6c30730b259f0d72480853d18f4029ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1575962893906,
+            "stop" : 1575962893906,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_div",
+          "uid" : "4c5d2c19c6b0a5fc",
+          "parentUid" : "6c30730b259f0d72480853d18f4029ee",
+          "status" : "failed",
+          "time" : {
+            "start" : 1575962893908,
+            "stop" : 1575962893908,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_sum",
+          "uid" : "8a87c62849470656",
+          "parentUid" : "6c30730b259f0d72480853d18f4029ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1575962893934,
+            "stop" : 1575962893934,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_sub",
+          "uid" : "aedb65cbe497d89f",
+          "parentUid" : "6c30730b259f0d72480853d18f4029ee",
+          "status" : "failed",
+          "time" : {
+            "start" : 1575962893936,
+            "stop" : 1575962893936,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6c30730b259f0d72480853d18f4029ee"
+      } ],
+      "uid" : "195be348e1cd79d93db2595845d57e5f"
+    } ],
+    "uid" : "9a5319302153c9ecff4470c01f6cd733"
+  } ]
+}

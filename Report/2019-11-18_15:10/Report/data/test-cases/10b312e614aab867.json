@@ -1,0 +1,92 @@
+{
+  "uid" : "10b312e614aab867",
+  "name" : "test_modify_title[Ayla45Ayla45Ayla45123-Ayla45Ayla45Ayla4512]",
+  "fullName" : "Case.test_home.TestHome#test_modify_title",
+  "historyId" : "a5a82d34723921e2f13c9284a3bd1fbd",
+  "time" : {
+    "start" : 1574061117158,
+    "stop" : 1574061130400,
+    "duration" : 13242
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574061017137,
+      "stop" : 1574061029869,
+      "duration" : 12732
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574061223869,
+      "stop" : 1574061224999,
+      "duration" : 1130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "4015-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_name",
+    "value" : "'Ayla45Ayla45Ayla4512'"
+  }, {
+    "name" : "name",
+    "value" : "'Ayla45Ayla45Ayla45123'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10b312e614aab867.json",
+  "parameterValues" : [ "'Ayla45Ayla45Ayla4512'", "'Ayla45Ayla45Ayla45123'" ]
+}

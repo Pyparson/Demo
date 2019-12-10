@@ -1,0 +1,156 @@
+{
+  "uid" : "5e0a1030b77788fe",
+  "name" : "test_create_room[艾拉-45-艾拉-45]",
+  "fullName" : "Case.test_room.TestRoom#test_create_room",
+  "historyId" : "6fe4032899710af20b2940e19c844b8f",
+  "time" : {
+    "start" : 1574049468363,
+    "stop" : 1574049478831,
+    "duration" : 10468
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574049441231,
+      "stop" : 1574049455118,
+      "duration" : 13887
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试截图",
+      "time" : {
+        "start" : 1574049468549,
+        "stop" : 1574049468903,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eedfd954f7df25c3",
+        "name" : "创建前截图",
+        "source" : "eedfd954f7df25c3.png",
+        "type" : "image/png",
+        "size" : 31351
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "测试截图",
+      "time" : {
+        "start" : 1574049478378,
+        "stop" : 1574049478762,
+        "duration" : 384
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea6f691248f85737",
+        "name" : "创建后截图",
+        "source" : "ea6f691248f85737.png",
+        "type" : "image/png",
+        "size" : 34139
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f9074d15405fbe9e",
+      "name" : "log",
+      "source" : "f9074d15405fbe9e.txt",
+      "type" : "text/plain",
+      "size" : 51
+    }, {
+      "uid" : "ab5ca04d1921c31a",
+      "name" : "stderr",
+      "source" : "ab5ca04d1921c31a.txt",
+      "type" : "text/plain",
+      "size" : 38
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574049633404,
+      "stop" : 1574049633725,
+      "duration" : 321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoom"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "1818-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_name",
+    "value" : "'艾拉-45'"
+  }, {
+    "name" : "name",
+    "value" : "'艾拉-45'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e0a1030b77788fe.json",
+  "parameterValues" : [ "'艾拉-45'", "'艾拉-45'" ]
+}

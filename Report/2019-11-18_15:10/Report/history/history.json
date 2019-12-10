@@ -1,0 +1,487 @@
+{
+  "c6deba8a5b20e297d23f45740b16e227" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afbab1ffe3827163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061384891,
+        "stop" : 1574061410541,
+        "duration" : 25650
+      }
+    } ]
+  },
+  "f756c3fdc70edb3582d3f9042565f06e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3101bf5cc1ee1e0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'int' object is not iterable",
+      "time" : {
+        "start" : 1574061347292,
+        "stop" : 1574061349748,
+        "duration" : 2456
+      }
+    } ]
+  },
+  "a9338a0366d6e57a012e94cb03c0c4b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aac5890179792768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061411599,
+        "stop" : 1574061418146,
+        "duration" : 6547
+      }
+    } ]
+  },
+  "5d0b89b676e1de791d5a5e877cd657ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca14d951bb131e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061017134,
+        "stop" : 1574061017135,
+        "duration" : 1
+      }
+    } ]
+  },
+  "7fbcc3dc963acf09941defaaa4c4bb36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91e56b80d41b8f76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061436320,
+        "stop" : 1574061436320,
+        "duration" : 0
+      }
+    } ]
+  },
+  "829332fd94dcd52cd819c4e4553d6006" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9c615dd5a40c2d8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: failed\nassert 1 == 7",
+      "time" : {
+        "start" : 1574061225004,
+        "stop" : 1574061225005,
+        "duration" : 1
+      }
+    } ]
+  },
+  "0fd3a14ddd883c8d929853dffccc43a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5fa10b183243723a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: failed\nassert 1 == 7",
+      "time" : {
+        "start" : 1574061436316,
+        "stop" : 1574061436316,
+        "duration" : 0
+      }
+    } ]
+  },
+  "72ab7a365f0e7e6e6ef4d3538f0a77f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5485fc6c34156ace",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'HomePage' object has no attribute 'get_toast'",
+      "time" : {
+        "start" : 1574061192917,
+        "stop" : 1574061201072,
+        "duration" : 8155
+      }
+    } ]
+  },
+  "021ef761e8ec285f7411b9492ecf1086" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d31ac3336d202792",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1574061322743,
+        "stop" : 1574061324263,
+        "duration" : 1520
+      }
+    } ]
+  },
+  "2b77f935f867c6ab5e931cad8d43591a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d6c61b4cc282b36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061428307,
+        "stop" : 1574061436312,
+        "duration" : 8005
+      }
+    } ]
+  },
+  "1c291feac8eb9b10f738bbd4b09408c4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a261f1e3d9e3780f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061419290,
+        "stop" : 1574061424753,
+        "duration" : 5463
+      }
+    } ]
+  },
+  "6fe4032899710af20b2940e19c844b8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5b51e480fd4a1a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061248003,
+        "stop" : 1574061258989,
+        "duration" : 10986
+      }
+    } ]
+  },
+  "bf8fdc56a3cf94be298f215ba3649aa2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4083598fb5b606aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061436314,
+        "stop" : 1574061436314,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6ccd225b285a00749fb486a57a84f811" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a5105fcdcd2a774",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1574061131426,
+        "stop" : 1574061170089,
+        "duration" : 38663
+      }
+    } ]
+  },
+  "5c6fb387d9ed686ff890ef25de08cc16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27fccb2445490b7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061234412,
+        "stop" : 1574061246879,
+        "duration" : 12467
+      }
+    } ]
+  },
+  "7377d2a3f6957116b4ff84b83487f86c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1603d8bc67d82b8a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 测试不通过\nassert 'Ayla 45' == 'Ayla45Ayla45Ayla4512'\n  - Ayla 45\n  + Ayla45Ayla45Ayla4512",
+      "time" : {
+        "start" : 1574061045487,
+        "stop" : 1574061058984,
+        "duration" : 13497
+      }
+    } ]
+  },
+  "d291d79230ec00f28248cb1bb21969fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1396fee701b6be49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061314182,
+        "stop" : 1574061321570,
+        "duration" : 7388
+      }
+    } ]
+  },
+  "2c8d4423e421acdd941ec8ac4253fd8c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "423ba8fd26067a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061225002,
+        "stop" : 1574061225002,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b7ae6474199f05a8e3157b7b0830b431" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bef03f9eba6018ba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: failed\nassert 1 == 7",
+      "time" : {
+        "start" : 1574061436322,
+        "stop" : 1574061436322,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a5a82d34723921e2f13c9284a3bd1fbd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10b312e614aab867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061117158,
+        "stop" : 1574061130400,
+        "duration" : 13242
+      }
+    } ]
+  },
+  "a71f8aae586bd223789b2d22c9b2fa31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac4fb9e763692bea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061372991,
+        "stop" : 1574061383788,
+        "duration" : 10797
+      }
+    } ]
+  },
+  "7b144381594d83fb95f9ef0a55e39dce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3fddde2190bbc26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061287375,
+        "stop" : 1574061313124,
+        "duration" : 25749
+      }
+    } ]
+  },
+  "ecc5f710a22d14ab7c9c5cd9f708ec37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51ee54cc4544011d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1574061060049,
+        "stop" : 1574061094176,
+        "duration" : 34127
+      }
+    } ]
+  },
+  "73dd27cb7fd78fff560cd8ce16cbce09" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "211b462a84dc3441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061260039,
+        "stop" : 1574061286292,
+        "duration" : 26253
+      }
+    } ]
+  },
+  "1f988e2170caa631c3060b563d30c354" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ef69d03b92b5963",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 测试不通过\nassert 'Ayla45' == 'Ayla45Ayla45Ayla4512'\n  - Ayla45\n  + Ayla45Ayla45Ayla4512",
+      "time" : {
+        "start" : 1574061029871,
+        "stop" : 1574061044376,
+        "duration" : 14505
+      }
+    } ]
+  }
+}

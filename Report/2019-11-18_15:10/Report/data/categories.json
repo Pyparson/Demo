@@ -1,0 +1,171 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 测试不通过\nassert 'Ayla45' == 'Ayla45Ayla45Ayla4512'\n  - Ayla45\n  + Ayla45Ayla45Ayla4512",
+      "children" : [ {
+        "name" : "test_modify_title[Ayla45-Ayla45]",
+        "uid" : "7ef69d03b92b5963",
+        "parentUid" : "2c4de10aa61c16f94eb7577c53d20f48",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574061029871,
+          "stop" : 1574061044376,
+          "duration" : 14505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Ayla45'", "'Ayla45'" ]
+      } ],
+      "uid" : "2c4de10aa61c16f94eb7577c53d20f48"
+    }, {
+      "name" : "AssertionError: 测试不通过\nassert 'Ayla 45' == 'Ayla45Ayla45Ayla4512'\n  - Ayla 45\n  + Ayla45Ayla45Ayla4512",
+      "children" : [ {
+        "name" : "test_modify_title[Ayla 45-Ayla 45]",
+        "uid" : "1603d8bc67d82b8a",
+        "parentUid" : "425b254622e4731eb7930368999eacf2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574061045487,
+          "stop" : 1574061058984,
+          "duration" : 13497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Ayla 45'", "'Ayla 45'" ]
+      } ],
+      "uid" : "425b254622e4731eb7930368999eacf2"
+    }, {
+      "name" : "AssertionError: failed\nassert 1 == 7",
+      "children" : [ {
+        "name" : "test_div",
+        "uid" : "f9c615dd5a40c2d8",
+        "parentUid" : "2bac1ce753a4ea2b1589ba151b1ae52a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574061225004,
+          "stop" : 1574061225005,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_div",
+        "uid" : "5fa10b183243723a",
+        "parentUid" : "2bac1ce753a4ea2b1589ba151b1ae52a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574061436316,
+          "stop" : 1574061436316,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sub",
+        "uid" : "bef03f9eba6018ba",
+        "parentUid" : "2bac1ce753a4ea2b1589ba151b1ae52a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574061436322,
+          "stop" : 1574061436322,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2bac1ce753a4ea2b1589ba151b1ae52a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_modify_title[Ayla_45-Ayla_45]",
+        "uid" : "51ee54cc4544011d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574061060049,
+          "stop" : 1574061094176,
+          "duration" : 34127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Ayla_45'", "'Ayla_45'" ]
+      }, {
+        "name" : "test_modify_title[艾拉-45-艾拉-45]",
+        "uid" : "3a5105fcdcd2a774",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574061131426,
+          "stop" : 1574061170089,
+          "duration" : 38663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'艾拉-45'", "'艾拉-45'" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "AttributeError: 'HomePage' object has no attribute 'get_toast'",
+      "children" : [ {
+        "name" : "test_modify_title_fail",
+        "uid" : "5485fc6c34156ace",
+        "parentUid" : "7419e09a8724a9db0c767544e1958782",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574061192917,
+          "stop" : 1574061201072,
+          "duration" : 8155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7419e09a8724a9db0c767544e1958782"
+    }, {
+      "name" : "IndexError: list index out of range",
+      "children" : [ {
+        "name" : "test_delete_device[0-device_list0]",
+        "uid" : "d31ac3336d202792",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574061322743,
+          "stop" : 1574061324263,
+          "duration" : 1520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "(3, 1)", "0" ]
+      } ],
+      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
+    }, {
+      "name" : "TypeError: 'int' object is not iterable",
+      "children" : [ {
+        "name" : "test_delete_device[1-1]",
+        "uid" : "b3101bf5cc1ee1e0",
+        "parentUid" : "f5be75fbc8d053c7710b6a9c27db14f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574061347292,
+          "stop" : 1574061349748,
+          "duration" : 2456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1" ]
+      } ],
+      "uid" : "f5be75fbc8d053c7710b6a9c27db14f7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

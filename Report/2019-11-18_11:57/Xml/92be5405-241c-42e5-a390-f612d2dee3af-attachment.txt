@@ -1,0 +1,1 @@
+INFO     Common.base_page:test_room.py:41 房间名称:艾拉-45;预期设备个数:2;实际设备个数:2 个设备

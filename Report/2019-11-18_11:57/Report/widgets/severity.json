@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3398b455fe5ec5d7",
+  "name" : "test_modify_name",
+  "time" : {
+    "start" : 1574049595311,
+    "stop" : 1574049620319,
+    "duration" : 25008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bd61cd8e9f0e184",
+  "name" : "test_delete_device[1-device_list2]",
+  "time" : {
+    "start" : 1574049570837,
+    "stop" : 1574049572215,
+    "duration" : 1378
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "907eb4ebe1c51aa5",
+  "name" : "test_add_device[1-device_list2]",
+  "time" : {
+    "start" : 1574049533019,
+    "stop" : 1574049538383,
+    "duration" : 5364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb47dd2679018507",
+  "name" : "test_create_room[Ayla45-Ayla45]",
+  "time" : {
+    "start" : 1574049455119,
+    "stop" : 1574049467312,
+    "duration" : 12193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d93b851bbc051a9b",
+  "name" : "test_add_device[0-device_list0]",
+  "time" : {
+    "start" : 1574049479914,
+    "stop" : 1574049506090,
+    "duration" : 26176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd83b010b5cf24bf",
+  "name" : "test_delete_room[1]",
+  "time" : {
+    "start" : 1574049621358,
+    "stop" : 1574049626420,
+    "duration" : 5062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcaab1c353e55e0a",
+  "name" : "test_delete_device[1-1]",
+  "time" : {
+    "start" : 1574049563316,
+    "stop" : 1574049569796,
+    "duration" : 6480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0a1030b77788fe",
+  "name" : "test_create_room[艾拉-45-艾拉-45]",
+  "time" : {
+    "start" : 1574049468363,
+    "stop" : 1574049478831,
+    "duration" : 10468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b81dacd1688d67a2",
+  "name" : "test_delete_room[0]",
+  "time" : {
+    "start" : 1574049627505,
+    "stop" : 1574049632344,
+    "duration" : 4839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "976007f6e82320de",
+  "name" : "test_delete_device[0-device_list0]",
+  "time" : {
+    "start" : 1574049539425,
+    "stop" : 1574049540664,
+    "duration" : 1239
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e82bedb5914430e3",
+  "name" : "test_add_device[1-1]",
+  "time" : {
+    "start" : 1574049507127,
+    "stop" : 1574049531921,
+    "duration" : 24794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

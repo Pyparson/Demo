@@ -1,0 +1,56 @@
+{
+  "uid" : "de482d4b7cedb736",
+  "name" : "test_sum",
+  "fullName" : "case1.test_work1.TestNum#test_sum",
+  "historyId" : "1306265d2849a8af2642ca76c774e535",
+  "time" : {
+    "start" : 1574068503160,
+    "stop" : 1574068503160,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case1"
+  }, {
+    "name" : "suite",
+    "value" : "test_work1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNum"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "5478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case1.test_work1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de482d4b7cedb736.json",
+  "parameterValues" : [ ]
+}

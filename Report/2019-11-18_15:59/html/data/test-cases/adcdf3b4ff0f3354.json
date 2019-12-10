@@ -1,0 +1,56 @@
+{
+  "uid" : "adcdf3b4ff0f3354",
+  "name" : "test_add",
+  "fullName" : "case1.test_work1.TestNum#test_add",
+  "historyId" : "f96d1a21ef533f286082860a6658eef8",
+  "time" : {
+    "start" : 1574063995713,
+    "stop" : 1574063995713,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case1"
+  }, {
+    "name" : "suite",
+    "value" : "test_work1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNum"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "4733-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case1.test_work1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adcdf3b4ff0f3354.json",
+  "parameterValues" : [ ]
+}
