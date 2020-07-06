@@ -25,6 +25,12 @@ class TestNum:
         b = 4
         sum = b - a
         assert sum == 7, "failed"
+        
+    def test_sum1(self):
+        a = 4
+        b = 4
+        sum = a + b
+        assert sum == 8, "failed"
 
 
 
